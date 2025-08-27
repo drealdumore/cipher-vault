@@ -2,6 +2,23 @@
 
 A lightweight and secure JavaScript library for encrypting and decrypting text using a substitution cipher. Whether you're safeguarding sensitive data in web applications or adding encryption to your server-side projects, `cipher-vault` is designed to be fast, reliable, and easy to use. ⚡
 
+## 🌍 The Story Behind Cipher-Vault
+
+It all started with a simple thought:
+
+*"How does WhatsApp make sure no one else can read my messages?"*
+
+That question led me down a rabbit hole of encryption, message authentication, and the fascinating world of ciphers. While exploring, I realized that most encryption libraries are either too heavy for small projects or too complex for beginners who just want to secure text.
+
+So, I built cipher-vault — a lightweight, developer-friendly encryption library based on substitution ciphers. It doesn't try to replace military-grade cryptography, but it gives developers an easy way to understand and apply basic encryption in their apps, whether for learning, prototyping, or adding a simple security layer.
+
+Think of it like a digital lockbox 🗝️:
+- You put your message inside
+- Cipher-vault scrambles it into something unreadable
+- Only with the right "key" can it be turned back into its original form
+
+That's the essence of encryption — and now you can use it too, without the headache of learning cryptographic math.
+
 ## 🚀 Quick Start
 
 ```javascript
