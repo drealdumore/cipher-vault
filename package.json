@@ -1,6 +1,6 @@
 {
   "name": "cipher-vault",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A lightweight and secure JavaScript library for encrypting and decrypting text using substitution cipher",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
