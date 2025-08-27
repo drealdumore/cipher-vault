@@ -1,0 +1,49 @@
+{
+  "name": "cipher-vault",
+  "version": "1.0.1",
+  "description": "A lightweight and secure JavaScript library for encrypting and decrypting text using substitution cipher",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "playground": "ts-node test-script.ts",
+    "example": "ts-node examples/usage.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "encryption",
+    "decryption",
+    "cipher",
+    "text",
+    "security",
+    "substitution",
+    "crypto",
+    "typescript"
+  ],
+  "author": "Samuel Isah",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "dist/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drealdumore/cipher-vault.git"
+  },
+  "bugs": {
+    "url": "https://github.com/drealdumore/cipher-vault/issues"
+  },
+  "homepage": "https://github.com/drealdumore/cipher-vault#readme",
+  "dependencies": {
+    "cipher-vault": "^1.0.0"
+  }
+}
